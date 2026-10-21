@@ -3,7 +3,9 @@
 > Enterprise hub-spoke network on Azure: a central hub with Azure Firewall + Bastion, peered to workload spokes, with forced tunneling — provisioned with Terraform.
 > **Author:** Muhammad Ahmad · **IaC:** Terraform · **Cloud:** Azure
 
-![Terraform](https://img.shields.io/badge/Terraform-1.5%2B-7B42BC?logo=terraform&logoColor=white)
+![Terraform CI](https://github.com/AhmadMughal-DS/azure-hub-spoke-network-terraform/actions/workflows/terraform.yml/badge.svg)
+![Terraform](https://img.shields.io/badge/Terraform-1.6%2B-7B42BC?logo=terraform&logoColor=white)
+![Security](https://img.shields.io/badge/scanned-tfsec%20%7C%20checkov-success)
 ![Azure](https://img.shields.io/badge/Azure-VNet%20%7C%20Firewall%20%7C%20Bastion-0078D4?logo=microsoftazure&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 

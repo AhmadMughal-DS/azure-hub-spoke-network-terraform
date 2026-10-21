@@ -1,14 +1,9 @@
 output "resource_group" {
-  description = "Resource group name"
-  value       = azurerm_resource_group.this.name
+  value = module.hubspoke.resource_group
 }
-
 output "firewall_private_ip" {
-  description = "Azure Firewall private IP (spoke default route target)"
-  value       = azurerm_firewall.this.ip_configuration[0].private_ip_address
+  value = module.hubspoke.firewall_private_ip
 }
-
 output "hub_vnet_id" {
-  description = "Hub VNet ID"
-  value       = azurerm_virtual_network.hub.id
+  value = module.hubspoke.hub_vnet_id
 }
